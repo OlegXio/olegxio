@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт обо мне">
+    <title>Обо мне</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #1e90ff, #87cefa);
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 50px 20px;
+            background-color: #0047ab;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+            padding: 8px 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        main {
+            padding: 40px 20px;
+        }
+        section {
+            margin: 40px 0;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #0047ab;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #87cefa;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Привет! Я <Ваше Имя></h1>
+        <nav>
+            <a href="#about">Обо мне</a>
+            <a href="#projects">Проекты</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Обо мне</h2>
+            <p>Я увлечённый разработчик, создающий проекты с использованием Python, C++, и многих других технологий. Люблю учиться и делиться знаниями.</p>
+        </section>
+        <section id="projects">
+            <h2>Мои проекты</h2>
+            <p>Ниже представлены ссылки на мои проекты:</p>
+            <ul>
+                <li><a href="https://github.com/<ваш_никнейм>/project1" target="_blank">Проект 1</a></li>
+                <li><a href="https://github.com/<ваш_никнейм>/project2" target="_blank">Проект 2</a></li>
+                <li><a href="https://github.com/<ваш_никнейм>/project3" target="_blank">Проект 3</a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Свяжитесь со мной через:</p>
+            <ul>
+                <li>Email: <a href="mailto:example@email.com">example@email.com</a></li>
+                <li>GitHub: <a href="https://github.com/<ваш_никнейм>" target="_blank">@ваш_никнейм</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        &copy; <span id="year"></span> Ваше Имя. Сделано с ❤️.
+    </footer>
+    <script>
+        // Скрипт для автоматической установки текущего года в футере
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
