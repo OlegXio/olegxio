@@ -22,8 +22,8 @@
     <a href="https://olegxio.t.me"><img align="bottom" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
     <a href="mailto:olegxio@tensi.org"><img align="bottom" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   </h3>
-  <h1></h1>
-  <!--<h3>  OS        
+  <!--<h1></h1>
+  <h3>  OS        
     <img align="left" src="https://img.shields.io/badge/Tails%20-56347C?&style=for-the-badge&logo=tails&logoColor=white">
   </h3>
   <h3>  Browser        
