@@ -23,12 +23,12 @@
     <a href="mailto:olegxio@tensi.org"><img align="bottom" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
   </h3>
   <h1></h1>
-  <h3>  OS        
+  <!--<h3>  OS        
     <img align="left" src="https://img.shields.io/badge/Tails%20-56347C?&style=for-the-badge&logo=tails&logoColor=white">
   </h3>
   <h3>  Browser        
     <img align="left" src="https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white">
-  </h3>
+  </h3>-->
 </div>
   <h1></h1>
 <p align="center">
